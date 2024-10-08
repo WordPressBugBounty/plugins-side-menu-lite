@@ -28,7 +28,7 @@ class WOWP_Public {
 
 	public function __construct() {
 		// prefix for plugin assets
-		$this->pefix = '';
+		$this->pefix = '.min';
 
 		add_shortcode( WOWP_Plugin::SHORTCODE, [ $this, 'shortcode' ] );
 

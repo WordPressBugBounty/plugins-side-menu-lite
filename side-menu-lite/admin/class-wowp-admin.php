@@ -46,7 +46,7 @@ class WOWP_Admin {
 
 	public function save_settings() {
 
-		$param = ! empty( $_POST['param'] ) ? map_deep( $_POST['param'], 'sanitize_text_field' ) : [];
+		$param = ! empty( $_POST['param'] ) ? map_deep( wp_unslash( $_POST['param'] ), 'sanitize_text_field' ) : [];
 
 		if ( isset( $param['menu_1']['item_tooltip'] ) ) {
 			$param['menu_1']['item_tooltip'] = map_deep( $param['menu_1']['item_tooltip'], array(

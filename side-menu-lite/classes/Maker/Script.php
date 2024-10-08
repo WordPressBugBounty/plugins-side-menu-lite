@@ -25,7 +25,7 @@ class Script {
 			$this->add_mobile_style( $param );
 		}
 
-		return 'var ' . self::NAME . $id . ' = ' . json_encode( $this->object_data ) . ';';
+		return 'var ' . self::NAME . $id . ' = ' . wp_json_encode( $this->object_data ) . ';';
 	}
 
 	public function add_element( $id ) {

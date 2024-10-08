@@ -53,8 +53,16 @@ class SideMenuLite {
     if (!classList.contains('sm-open')) {
       event.preventDefault();
       classList.add('sm-open');
-      setTimeout(() => classList.remove('sm-open'), 3000);
+      this.touchAnyWhere(link, classList);
     }
+  }
+
+  touchAnyWhere(link, classList) {
+    document.addEventListener('touchstart', function (event) {
+      if (!link.contains(event.target)) {
+        classList.remove('sm-open')
+      }
+    });
   }
 
   displayMenu() {

@@ -5,7 +5,7 @@ Tags: sidebar menu, floating menu, sticky menu, float button, side menu
 Requires at least: 4.3
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 5.2.1
+Stable tag: 5.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,6 +114,11 @@ Search for answers and ask your questions at [support center](https://wordpress.
 5. Interactive preview of the Side Menu
 
 == Changelog ==
+= 5.2.2 =
+* Changed: Function ‘touch rule’.
+* Fixed: Accessibility for keyboard navigation.
+* Fixed: Minor bugs related to escaping.
+
 = 5.2.1 =
 - Fixed: Includes the icon font in the page with the shortcode.
 
