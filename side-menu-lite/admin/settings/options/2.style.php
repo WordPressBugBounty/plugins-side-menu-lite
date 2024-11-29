@@ -22,8 +22,8 @@ return [
 		'title' => __('Position', 'side-menu-lite'),
 		'val' => 'left',
 		'atts' => [
-			'left'  => esc_attr__( 'Left', 'side-menu' ),
-			'right' => esc_attr__( 'Right', 'side-menu' ),
+			'left'  => esc_attr__( 'Left', 'side-menu-lite' ),
+			'right' => esc_attr__( 'Right', 'side-menu-lite' ),
 		],
 	],
 
@@ -32,9 +32,9 @@ return [
 		'title' => __('Vertical alignment', 'side-menu-lite'),
 		'val' => 'center',
 		'atts' => [
-			'top'    => esc_attr__( 'Top', 'side-menu' ),
-			'center' => esc_attr__( 'Center', 'side-menu' ),
-			'bottom' => esc_attr__( 'Bottom', 'side-menu' ),
+			'top'    => esc_attr__( 'Top', 'side-menu-lite' ),
+			'center' => esc_attr__( 'Center', 'side-menu-lite' ),
+			'bottom' => esc_attr__( 'Bottom', 'side-menu-lite' ),
 		],
 	],
 
@@ -67,8 +67,8 @@ return [
 		'title' => __('Shadow', 'side-menu-lite'),
 		'val' => '',
 		'atts' => [
-			'shadow' => esc_attr__( 'Yes', 'side-menu' ),
-			''       => esc_attr__( 'No', 'side-menu' ),
+			'shadow' => esc_attr__( 'Yes', 'side-menu-lite' ),
+			''       => esc_attr__( 'No', 'side-menu-lite' ),
 		],
 	],
 
@@ -87,10 +87,10 @@ return [
 		'title' => __('Font weight', 'side-menu-lite'),
 		'val' => 'normal',
 		'atts' => [
-			'normal'  => esc_attr__( 'Normal', 'side-menu' ),
-			'bold'    => esc_attr__( 'Bold', 'side-menu' ),
-			'bolder'  => esc_attr__( 'Bolder', 'side-menu' ),
-			'lighter' => esc_attr__( 'Lighter', 'side-menu' ),
+			'normal'  => esc_attr__( 'Normal', 'side-menu-lite' ),
+			'bold'    => esc_attr__( 'Bold', 'side-menu-lite' ),
+			'bolder'  => esc_attr__( 'Bolder', 'side-menu-lite' ),
+			'lighter' => esc_attr__( 'Lighter', 'side-menu-lite' ),
 		],
 	],
 

@@ -28,7 +28,7 @@ class Content {
 	}
 
 	private function create(): string {
-		$id = $this->id;
+		$id    = $this->id;
 		$param = $this->param;
 
 		$count = ! empty( $param['menu_1']['item_type'] ) ? count( $param['menu_1']['item_type'] ) : 0;
@@ -186,9 +186,9 @@ class Content {
 				break;
 			case 'smoothscroll':
 			case 'scrollSpy':
-				$link = ! empty( $param['menu_1']['item_link'][ $i ] ) ? $param['menu_1']['item_link'][ $i ] : '#';
-				$action = ($item_type === 'smoothscroll') ? 'scroll' : $item_type;
-				$menu .= $this->generate_link( $link, '', $icon, $tooltip, $link_param, 'data-btn-action', $action );
+				$link   = ! empty( $param['menu_1']['item_link'][ $i ] ) ? $param['menu_1']['item_link'][ $i ] : '#';
+				$action = ( $item_type === 'smoothscroll' ) ? 'scroll' : $item_type;
+				$menu   .= $this->generate_link( $link, '', $icon, $tooltip, $link_param, 'data-btn-action', $action );
 				break;
 			case 'login':
 			case 'logout':
@@ -295,8 +295,9 @@ class Content {
 		$button_id    = $param['menu_1']['button_id'][ $i ];
 		$id_add       = ! empty( $button_id ) ? ' id="' . esc_attr( $button_id ) . '"' : "";
 		$link_rel     = ! empty( $param['menu_1']['link_rel'][ $i ] ) ? ' rel="' . esc_attr( $param['menu_1']['link_rel'][ $i ] ) . '"' : '';
+		$aria_label   = ! empty( $param['menu_1']['aria_label'][ $i ] ) ? ' aria-label="' . esc_attr( $param['menu_1']['aria_label'][ $i ] ) . '"' : '';
 
-		return $id_add . $class_add . $link_rel;
+		return $id_add . $class_add . $link_rel . $aria_label;
 	}
 
 	private function get_link( $param, $i, $item_type ) {

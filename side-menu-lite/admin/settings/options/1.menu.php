@@ -33,7 +33,7 @@ $args = [
 	// Icons
 	'item_icon' => [
 		'type'  => 'text',
-		'title' => __( 'Icon', 'side-menu-pro' ),
+		'title' => __( 'Icon', 'side-menu-lite' ),
 		'val'   => 'fas fa-wand-magic-sparkles',
 		'atts'  => [
 			'class' => 'wpie-icon-box',
@@ -136,6 +136,11 @@ $args = [
 	'link_rel' => [
 		'type'  => 'text',
 		'title' => __( 'Attribute: rel', 'side-menu-lite' ),
+	],
+
+	'aria_label' => [
+		'type'  => 'text',
+		'title' => __( 'Aria label', 'side-menu-lite' ),
 	],
 
 ];

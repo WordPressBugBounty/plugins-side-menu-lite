@@ -105,7 +105,7 @@ class WOWP_Admin {
 		wp_enqueue_style( $slug. '-fontawesome', $url_assets . '/fontawesome/css/all.min.css', [], '6.6' );
 
 		$fonticonpicker_js = $url_assets . 'fonticonpicker/js/jquery.fonticonpicker.js';
-		wp_enqueue_script( $slug . '-fonticonpicker', $fonticonpicker_js, array( 'jquery' ), $version );
+		wp_enqueue_script( $slug . '-fonticonpicker', $fonticonpicker_js, array( 'jquery' ), $version, true );
 
 		$fonticonpicker_css = $url_assets . 'fonticonpicker/css/base/jquery.fonticonpicker.css';
 		wp_enqueue_style( $slug . '-fonticonpicker', $fonticonpicker_css, null, $version  );

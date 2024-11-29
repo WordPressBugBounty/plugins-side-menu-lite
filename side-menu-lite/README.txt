@@ -3,9 +3,9 @@ Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/side-menu-pro/
 Tags: sidebar menu, floating menu, sticky menu, float button, side menu
 Requires at least: 4.3
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 5.2.2
+Stable tag: 5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,6 +114,12 @@ Search for answers and ask your questions at [support center](https://wordpress.
 5. Interactive preview of the Side Menu
 
 == Changelog ==
+= 5.3 =
+* Added: Aria Label attribute for menu item.
+* Updated: the main plugin icon.
+* Updated: small interface elements.
+* Fixed: minor bugs.
+
 = 5.2.2 =
 * Changed: Function ‘touch rule’.
 * Fixed: Accessibility for keyboard navigation.
