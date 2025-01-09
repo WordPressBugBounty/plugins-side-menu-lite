@@ -3,7 +3,7 @@
  *  Plugin Name:       Side Menu Lite
  *  Plugin URI:        https://wordpress.org/plugins/side-menu-lite/
  *  Description:       Provide any extra content and functionality with the attention-grabbing side menu!
- *  Version:           5.3
+ *  Version:           5.3.1
  *  Author:            Wow-Company
  *  Author URI:        https://wow-estore.com/
  *  License:           GPL-2.0+
@@ -160,11 +160,11 @@ if ( ! class_exists( 'WOWP_Plugin' ) ) :
 
 			$columns = "
 			id mediumint(9) NOT NULL AUTO_INCREMENT,
-			title VARCHAR(200) DEFAULT '' NOT NULL,
-			param longtext DEFAULT '' NOT NULL,
+			title VARCHAR(200),
+			param longtext,
 			status boolean DEFAULT 0 NOT NULL,
 			mode boolean DEFAULT 0 NOT NULL,
-			tag text DEFAULT '' NOT NULL,
+			tag text,
 			PRIMARY KEY  (id)
 			";
 			DBManager::create( $columns );

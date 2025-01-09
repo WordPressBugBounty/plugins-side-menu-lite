@@ -30,7 +30,7 @@ $wp_plugins = [
 	],
 	[
 		'free'    => 'https://wordpress.org/plugins/side-menu-lite/',
-		'pro'     => 'https://wow-estore.com/item/side-menu-pro/',
+		'pro'     => 'https://wow-estore.com/item/sticky-buttons-pro/',
 		'icon'    => 'side-menu.png',
 		'title'   => 'Side Menu',
 		'content' => 'Create compact navigation panels with attractive designs.'
@@ -41,13 +41,6 @@ $wp_plugins = [
 		'icon'    => 'sticky-buttons.png',
 		'title'   => 'Sticky Buttons',
 		'content' => 'Quickly create informative floating buttons that will always be within the user’s visibility, increasing his attention and providing quick access to the necessary pages of the site or action.'
-	],
-	[
-		'free'    => 'https://wordpress.org/plugins/buttons/',
-		'pro'     => 'https://wow-estore.com/item/buttons-pro/',
-		'icon'    => 'buttons.png',
-		'title'   => 'Buttons',
-		'content' => 'Easily create beautiful, customizable standard, floating, and social sharing buttons. Increase click-through rates and enhance your user experience.'
 	],
 	[
 		'free'    => 'https://wordpress.org/plugins/calculator-builder/',
@@ -126,6 +119,13 @@ $wp_plugins = [
 		'title'   => 'Markdown Comment',
 		'content' => 'Adds the ability to use Markdown formatting in comment.'
 	],
+	[
+		'free'    => 'https://wordpress.org/plugins/mwp-skype/',
+		'pro'     => 'https://wow-estore.com/item/wow-skype-buttons-pro/',
+		'icon'    => 'skype.png',
+		'title'   => 'Skype Buttons',
+		'content' => 'Add on a site the Skype buttons with adjustable functionality and display options.'
+	],
 ];
 
 $wp_themes = [
@@ -190,112 +190,84 @@ $sites = [
     <div class="wpie-page__content">
         <h2>WordPress plugins</h2>
         <div class="item-cards">
-			<?php
-			foreach ( $wp_plugins as $plugin ): ?>
+			<?php foreach ( $wp_plugins as $plugin ): ?>
                 <div class="item-card">
                     <div class="item-img">
-                        <img src="<?php
-						echo esc_url( $img_url . '/' . $plugin['icon'] ); ?>">
+                        <img src="<?php echo esc_url( $img_url . '/' . $plugin['icon'] ); ?>" alt="<?php echo esc_attr( $plugin['title'] ); ?>">
                     </div>
                     <div class="item-content">
-                        <div class="item-title"><?php
-							echo esc_html( $plugin['title'] ); ?></div>
+                        <div class="item-title">
+							<?php echo esc_html( $plugin['title'] ); ?>
+                        </div>
                         <div class="item-links">
-							<?php
-							if ( ! empty( $plugin['free'] ) ) : ?>
+							<?php if ( ! empty( $plugin['free'] ) ) : ?>
                                 <a href="<?php echo esc_url( $plugin['free'] ); ?>">Free</a>
-							<?php
-							endif; ?>
-							<?php
-							if ( ! empty( $plugin['pro'] ) ) : ?>
+							<?php endif; ?>
+							<?php if ( ! empty( $plugin['pro'] ) ) : ?>
                                 <a href="<?php echo esc_url( $plugin['pro'] ); ?>" target="_blank">Pro</a>
-							<?php
-							endif; ?>
+							<?php endif; ?>
                         </div>
                     </div>
                     <div class="item-description">
-						<?php
-						echo esc_html( $plugin['content'] ); ?>
+						<?php echo esc_html( $plugin['content'] ); ?>
                     </div>
 
                 </div>
 
-			<?php
-			endforeach; ?>
-
+			<?php endforeach; ?>
         </div>
 
         <h2>WordPress themes</h2>
         <div class="item-cards">
-			<?php
-			foreach ( $wp_themes as $theme ): ?>
+			<?php foreach ( $wp_themes as $theme ): ?>
                 <div class="item-card">
                     <div class="item-img">
-                        <img src="<?php
-						echo esc_url( $img_url . '/' . $theme['icon'] ); ?>">
+                        <img src="<?php echo esc_url( $img_url . '/' . $theme['icon'] ); ?>" alt="<?php echo esc_attr( $theme['title'] ); ?>">
                     </div>
                     <div class="item-content">
-                        <div class="item-title"><?php
-							echo esc_html( $theme['title'] ); ?></div>
+                        <div class="item-title">
+							<?php echo esc_html( $theme['title'] ); ?></div>
                         <div class="item-links">
-							<?php
-							if ( ! empty( $theme['free'] ) ) : ?>
-                                <a href="<?php
-								echo esc_url( $theme['free'] ); ?>">Free</a>
-							<?php
-							endif; ?>
-							<?php
-							if ( ! empty( $theme['pro'] ) ) : ?>
+							<?php if ( ! empty( $theme['free'] ) ) : ?>
+                                <a href="<?php echo esc_url( $theme['free'] ); ?>">Free</a>
+							<?php endif; ?>
+							<?php if ( ! empty( $theme['pro'] ) ) : ?>
                                 <a href="#">Pro</a>
-							<?php
-							endif; ?>
+							<?php endif; ?>
                         </div>
                     </div>
                     <div class="item-description">
-						<?php
-						echo esc_html( $theme['content'] ); ?>
+						<?php echo esc_html( $theme['content'] ); ?>
                     </div>
-
                 </div>
 
-			<?php
-			endforeach; ?>
-
+			<?php endforeach; ?>
         </div>
 
         <h2>WebSites</h2>
         <div class="item-cards">
-			<?php
-			foreach ( $sites as $site ): ?>
+			<?php foreach ( $sites as $site ): ?>
                 <div class="item-card">
                     <div class="item-img">
-                        <img src="<?php
-						echo esc_url( $img_url . '/' . $site['icon'] ); ?>">
+                        <img src="<?php echo esc_url( $img_url . '/' . $site['icon'] ); ?>" alt="<?php echo esc_attr( $site['title'] ); ?>">
                     </div>
                     <div class="item-content">
                         <div class="item-title"><?php
 							echo esc_html( $site['title'] ); ?></div>
                         <div class="item-links">
-							<?php
-							if ( ! empty( $site['link'] ) ) : ?>
-                                <a href="<?php
-								echo esc_url( $site['link'] ); ?>">Go to Site</a>
-							<?php
-							endif; ?>
-
+							<?php if ( ! empty( $site['link'] ) ) : ?>
+                                <a href="<?php echo esc_url( $site['link'] ); ?>">Go to Site</a>
+							<?php endif; ?>
                         </div>
                     </div>
                     <div class="item-description">
-						<?php
-						echo esc_html( $site['content'] ); ?>
+						<?php echo esc_html( $site['content'] ); ?>
                     </div>
-
                 </div>
 
-			<?php
-			endforeach; ?>
-
+			<?php endforeach; ?>
         </div>
-
     </div>
 </div>
+
+<?php
