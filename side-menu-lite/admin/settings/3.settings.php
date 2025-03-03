@@ -17,6 +17,7 @@ $field = new CreateFields( $options, $page_opt );
 <div class="wpie-fieldset">
 	<div class="wpie-legend"><?php esc_html_e('Settings', 'side-menu-lite');?></div>
 	<div class="wpie-fields">
+		<?php $field->create( 'notranslate_off' ); ?>
 		<?php $field->create( 'touch' ); ?>
 	</div>
 </div>

@@ -5,7 +5,7 @@ Tags: sidebar menu, floating menu, sticky menu, float button, side menu
 Requires at least: 4.3
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 5.3.2
+Stable tag: 5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,6 +114,9 @@ Search for answers and ask your questions at [support center](https://wordpress.
 5. Interactive preview of the Side Menu
 
 == Changelog ==
+= 5.4 =
+* Added: option for Disable class 'notranslate';
+
 = 5.3.2 =
 * Fixed: function for verification
 

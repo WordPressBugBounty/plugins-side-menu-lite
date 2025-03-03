@@ -56,7 +56,11 @@ class Content {
 		$list            = ! empty( $param['connect'] ) ? ' sm-connected' : '';
 		$connect_visible = ( ! empty( $param['connect'] ) && ! empty( $param['hold_open'] ) ) ? ' sm-open' : '';
 
-		$menu_add_classes = 'notranslate side-menu is-hidden ' . $position . $align . $shadow . $list . $connect_visible;
+		$menu_add_classes = 'side-menu is-hidden ' . $position . $align . $shadow . $list . $connect_visible;
+
+		if ( empty( $param['notranslate_off'] ) ) {
+			$menu_add_classes .= ' notranslate';
+		}
 
 		return '<div class="' . esc_attr( $menu_add_classes ) . '" id="side-menu-' . absint( $id ) . '">';
 	}
