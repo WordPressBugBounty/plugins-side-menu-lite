@@ -3,7 +3,7 @@
  *  Plugin Name:       Side Menu Lite
  *  Plugin URI:        https://wordpress.org/plugins/side-menu-lite/
  *  Description:       Provide any extra content and functionality with the attention-grabbing side menu!
- *  Version:           5.4
+ *  Version:           5.4.1
  *  Author:            Wow-Company
  *  Author URI:        https://wow-estore.com/
  *  License:           GPL-2.0+
@@ -17,7 +17,9 @@
  *  Rating URI:        https://wordpress.org/support/plugin/side-menu-lite/reviews/#new-post
  *  Support URI:       https://wordpress.org/support/plugin/side-menu-lite/
  *  Item URI:          https://wow-estore.com/item/side-menu-pro/
- *  Documentation:     https://wow-estore.com/documentations/side-menu-pro-documentation/
+ *  Documentation:     https://wow-estore.com/documentations/side-menu-lite/
+ *  Demo URI:          https://demo.wow-estore.com/side-menu-pro/
+ *  Change URI:        https://wordpress.org/plugins/side-menu-lite/#developers
  *
  *  PHP version        7.4
  *
@@ -107,6 +109,8 @@ if ( ! class_exists( 'WOWP_Plugin' ) ) :
 				'support'    => 'Support URI',
 				'pro'        => 'Item URI',
 				'docs'       => 'Documentation',
+				'change'     => 'Change URI',
+				'demo'       => 'Demo URI',
 			];
 			$plugin_data = get_file_data( __FILE__, $data, false );
 

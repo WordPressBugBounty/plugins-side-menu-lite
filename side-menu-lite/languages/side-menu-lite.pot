@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Side Menu Lite\n"
-"POT-Creation-Date: 2024-07-04 12:36+0300\n"
+"POT-Creation-Date: 2025-04-01 13:46+0300\n"
 "PO-Revision-Date: 2024-07-04 12:35+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -593,47 +593,57 @@ msgstr ""
 msgid "Spin"
 msgstr ""
 
-#: admin/class-settings-helper.php:2350 admin/settings/options/1.menu.php:29
+#: admin/class-settings-helper.php:318 admin/settings/options/1.menu.php:29
 #: admin/settings/options/2.style.php:182
 #: admin/settings/options/3.settings.php:10
 #: admin/settings/options/template.php:50
 msgid "Enable"
 msgstr ""
 
-#: admin/pages/1.list.php:58
+#: admin/pages/1.list.php:58 admin/settings/5.pro.php:75
 msgid "Search"
 msgstr ""
 
-#: admin/pages/2.settings.php:33
-msgid "Enter title here"
-msgstr ""
-
-#: admin/pages/2.settings.php:35
+#: admin/pages/2.settings.php:16
 msgid "Add title"
 msgstr ""
 
-#: admin/pages/3.tools.php:18
+#: admin/pages/2.settings.php:34
+msgid "Enter title here"
+msgstr ""
+
+#: admin/pages/3.tools.php:19
 msgid "Export Settings"
 msgstr ""
 
 #. translators: %s: plugin name
-#: admin/pages/3.tools.php:22
+#: admin/pages/3.tools.php:23
 #, php-format
 msgid ""
 "Export the  settings for %s as a .json file. This allows you to easily "
 "import the configuration into another site."
 msgstr ""
 
-#: admin/pages/3.tools.php:30
+#: admin/pages/3.tools.php:31
 msgid "Import Settings"
 msgstr ""
 
 #. translators: %s: plugin name
-#: admin/pages/3.tools.php:34
+#: admin/pages/3.tools.php:35
 #, php-format
 msgid ""
 "Import the %s settings from a .json file. This file can be obtained by "
 "exporting the settings on another site using the form above."
+msgstr ""
+
+#: admin/pages/3.tools.php:44
+msgid "Manage Capabilities"
+msgstr ""
+
+#: admin/pages/3.tools.php:46
+msgid ""
+"Manage the visibility of the plugin for users based on their Manage User "
+"Capabilities."
 msgstr ""
 
 #: admin/pages/4.support.php:17
@@ -651,31 +661,27 @@ msgid ""
 "Also, you can send us your ideas and suggestions for improving the plugin."
 msgstr ""
 
-#: admin/settings/1.menu.php:49 admin/settings/1.menu.php:144
+#: admin/settings/1.menu.php:49 admin/settings/1.menu.php:145
 #: admin/settings/options/1.menu.php:16
 msgid "Type"
 msgstr ""
 
-#: admin/settings/1.menu.php:50 admin/settings/1.menu.php:145
-#: admin/settings/options/1.menu.php:36 admin/settings/options/1.menu.php:43
+#: admin/settings/1.menu.php:50 admin/settings/1.menu.php:146
+#: admin/settings/options/1.menu.php:36 admin/settings/options/1.menu.php:45
 msgid "Icon"
 msgstr ""
 
-#: admin/settings/1.menu.php:51 admin/settings/1.menu.php:146
+#: admin/settings/1.menu.php:51 admin/settings/1.menu.php:147
 msgid "Style"
 msgstr ""
 
 #: admin/settings/1.menu.php:52 admin/settings/1.menu.php:91
-#: admin/settings/1.menu.php:147 admin/settings/1.menu.php:199
+#: admin/settings/1.menu.php:148 admin/settings/1.menu.php:199
 msgid "Attributes"
 msgstr ""
 
-#: admin/settings/1.menu.php:110
+#: admin/settings/1.menu.php:111
 msgid "Add Button"
-msgstr ""
-
-#: admin/settings/1.menu.php:148
-msgid "Extra text"
 msgstr ""
 
 #: admin/settings/2.style.php:25
@@ -710,6 +716,221 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
+#: admin/settings/5.pro.php:10
+msgid "Submenus"
+msgstr ""
+
+#: admin/settings/5.pro.php:11
+msgid ""
+"Group related items into collapsible submenus to reduce clutter and enhance "
+"structure. "
+msgstr ""
+
+#: admin/settings/5.pro.php:16
+msgid "Connect All Items"
+msgstr ""
+
+#: admin/settings/5.pro.php:17
+msgid ""
+"Hovering over one item can open all menu items simultaneously, creating a "
+"smooth, unified interaction. "
+msgstr ""
+
+#: admin/settings/5.pro.php:22
+msgid "ScrollSpy"
+msgstr ""
+
+#: admin/settings/5.pro.php:23
+msgid ""
+"Highlight the active section in the menu based on current scroll position — "
+"great for one-page layouts and guides. "
+msgstr ""
+
+#: admin/settings/5.pro.php:29
+msgid "Custom Icons, Emojis & Letters"
+msgstr ""
+
+#: admin/settings/5.pro.php:30
+msgid ""
+"Upload your own icons or use emojis and letters for creative, unique, or "
+"casual designs. "
+msgstr ""
+
+#: admin/settings/5.pro.php:36
+msgid "Extended Labels & Hold Open"
+msgstr ""
+
+#: admin/settings/5.pro.php:37
+msgid ""
+"Add longer text descriptions and keep label text visible with the “Hold "
+"Open” option for clarity and accessibility."
+msgstr ""
+
+#: admin/settings/5.pro.php:43
+msgid "Social Sharing"
+msgstr ""
+
+#: admin/settings/5.pro.php:44
+msgid ""
+"Include social sharing links from 30+ services to help users share your "
+"content and boost traffic. "
+msgstr ""
+
+#: admin/settings/5.pro.php:50
+msgid "Translate"
+msgstr ""
+
+#: admin/settings/5.pro.php:51
+msgid "Let visitors translate your website content in real time. "
+msgstr ""
+
+#: admin/settings/5.pro.php:57
+msgid "Print"
+msgstr ""
+
+#: admin/settings/5.pro.php:58
+msgid ""
+"PAdd a quick-access print button that launches the browser print dialog for "
+"easy page printing."
+msgstr ""
+
+#: admin/settings/5.pro.php:63
+msgid "Next / Previous Post Navigation"
+msgstr ""
+
+#: admin/settings/5.pro.php:64
+msgid ""
+"Automatically link to the next or previous post within the same category to "
+"keep visitors engaged and moving through your content."
+msgstr ""
+
+#: admin/settings/5.pro.php:69
+msgid "Scroll to Top / Bottom"
+msgstr ""
+
+#: admin/settings/5.pro.php:70
+msgid ""
+"Add one-click scroll links that take users instantly to the top or bottom of "
+"the page — ideal for long content pages. "
+msgstr ""
+
+#: admin/settings/5.pro.php:76
+msgid ""
+"Include a live search input directly inside the menu, enabling users to "
+"quickly find content without leaving the current view. "
+msgstr ""
+
+#: admin/settings/5.pro.php:82
+msgid "Hiding/Showing"
+msgstr ""
+
+#: admin/settings/5.pro.php:83
+msgid ""
+"Allows you to control the visibility of your floating menus based on the "
+"user's scroll position on the webpage. "
+msgstr ""
+
+#: admin/settings/5.pro.php:89
+msgid "Scroll-Based Visibility"
+msgstr ""
+
+#: admin/settings/5.pro.php:90
+msgid ""
+"Show the menu after the user scrolls a specific distance, hide it after a "
+"defined scroll point, or make it sticky and responsive to scrolling. "
+msgstr ""
+
+#: admin/settings/5.pro.php:96
+msgid "Timer-Based Visibility"
+msgstr ""
+
+#: admin/settings/5.pro.php:97
+msgid ""
+"Delay menu appearance using a display timer, or automatically hide it after "
+"a certain number of seconds. "
+msgstr ""
+
+#: admin/settings/5.pro.php:103
+msgid "Activate by URL"
+msgstr ""
+
+#: admin/settings/5.pro.php:104
+msgid ""
+"Display the menu only when the current page URL contains specific keywords "
+"or parameters. "
+msgstr ""
+
+#: admin/settings/5.pro.php:110
+msgid "Activate by Referrer URL"
+msgstr ""
+
+#: admin/settings/5.pro.php:111
+msgid ""
+"Trigger menu display based on the visitor’s referrer — useful for targeting "
+"traffic from ads or campaigns.  "
+msgstr ""
+
+#: admin/settings/5.pro.php:117
+msgid "Comprehensive Display Controls"
+msgstr ""
+
+#: admin/settings/5.pro.php:118
+msgid ""
+"Use shortcodes, post types, tags, categories, or archive pages to fine-tune "
+"where and when your menu appears. "
+msgstr ""
+
+#: admin/settings/5.pro.php:124
+msgid "Device-Based Visibility"
+msgstr ""
+
+#: admin/settings/5.pro.php:125
+msgid ""
+"Remove the menu entirely on mobile or desktop devices to optimize "
+"performance and layout per screen. "
+msgstr ""
+
+#: admin/settings/5.pro.php:131
+msgid "User Role Permissions"
+msgstr ""
+
+#: admin/settings/5.pro.php:132
+msgid ""
+"Restrict menu visibility for specific user roles (e.g., Admins, Editors, "
+"Subscribers)."
+msgstr ""
+
+#: admin/settings/5.pro.php:137
+msgid "Multilingual Support"
+msgstr ""
+
+#: admin/settings/5.pro.php:138
+msgid ""
+"Show menus based on language preferences. Compatible with WPML and Polylang."
+msgstr ""
+
+#: admin/settings/5.pro.php:143
+msgid "Scheduling"
+msgstr ""
+
+#: admin/settings/5.pro.php:144
+msgid ""
+"Schedule menu appearances based on specific days, times, and dates. This "
+"allows you to promote temporary events or campaigns without cluttering your "
+"website permanently. "
+msgstr ""
+
+#: admin/settings/5.pro.php:150
+msgid "Browser Compatibility"
+msgstr ""
+
+#: admin/settings/5.pro.php:151
+msgid ""
+"Ensure your menus display correctly across a wide range of browsers. If "
+"necessary, you can choose to hide menus for specific browsers to address "
+"compatibility issues with outdated software versions. "
+msgstr ""
+
 #: admin/settings/options/1.menu.php:10
 msgid "Label Text"
 msgstr ""
@@ -718,93 +939,97 @@ msgstr ""
 msgid "Open in new Window"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:56
+#: admin/settings/options/1.menu.php:58
 msgid "Font Color"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:66
+#: admin/settings/options/1.menu.php:68
 msgid "Icon Color"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:76
+#: admin/settings/options/1.menu.php:78
 msgid "Background"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:86
+#: admin/settings/options/1.menu.php:88
 msgid "Hover Background"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:91
+#: admin/settings/options/1.menu.php:93
 msgid "Label Font Family"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:93
+#: admin/settings/options/1.menu.php:95
 msgid "Use Your Themes"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:94
+#: admin/settings/options/1.menu.php:96
 msgid "Tahoma"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:95
+#: admin/settings/options/1.menu.php:97
 msgid "Georgia"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:96
+#: admin/settings/options/1.menu.php:98
 msgid "Comic Sans MS"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:97
+#: admin/settings/options/1.menu.php:99
 msgid "Arial"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:98
+#: admin/settings/options/1.menu.php:100
 msgid "Lucida Grande"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:99
+#: admin/settings/options/1.menu.php:101
 msgid "Times New Roman"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:105
+#: admin/settings/options/1.menu.php:107
 msgid "Label Font Style"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:107 admin/settings/options/1.menu.php:116
+#: admin/settings/options/1.menu.php:109 admin/settings/options/1.menu.php:118
 #: admin/settings/options/2.style.php:90
 msgid "Normal"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:108
+#: admin/settings/options/1.menu.php:110
 msgid "Italic"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:114
+#: admin/settings/options/1.menu.php:116
 msgid "Label Font Weight "
 msgstr ""
 
-#: admin/settings/options/1.menu.php:117 admin/settings/options/2.style.php:93
+#: admin/settings/options/1.menu.php:119 admin/settings/options/2.style.php:93
 msgid "Lighter"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:118 admin/settings/options/2.style.php:91
+#: admin/settings/options/1.menu.php:120 admin/settings/options/2.style.php:91
 msgid "Bold"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:119 admin/settings/options/2.style.php:92
+#: admin/settings/options/1.menu.php:121 admin/settings/options/2.style.php:92
 msgid "Bolder"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:126
+#: admin/settings/options/1.menu.php:128
 msgid "ID for element"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:131
+#: admin/settings/options/1.menu.php:133
 msgid "Class for element"
 msgstr ""
 
-#: admin/settings/options/1.menu.php:136
+#: admin/settings/options/1.menu.php:138
 msgid "Attribute: rel"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:143
+msgid "Aria label"
 msgstr ""
 
 #: admin/settings/options/2.style.php:9
@@ -910,6 +1135,18 @@ msgstr ""
 msgid "Deactivate touch rule"
 msgstr ""
 
+#: admin/settings/options/3.settings.php:15
+msgid "Disable no translate"
+msgstr ""
+
+#: admin/settings/options/3.settings.php:16
+msgid "Apply"
+msgstr ""
+
+#: admin/settings/options/3.settings.php:17
+msgid "By default, the menu items aren’t translated by Google Translate."
+msgstr ""
+
 #: admin/settings/options/4.rules.php:9 admin/settings/options/4.rules.php:12
 msgid "General"
 msgstr ""
@@ -918,7 +1155,7 @@ msgstr ""
 msgid "Everywhere"
 msgstr ""
 
-#: admin/settings/options/4.rules.php:11 classes/Admin/ListTable.php:97
+#: admin/settings/options/4.rules.php:11 classes/Admin/ListTable.php:95
 msgid "Shortcode"
 msgstr ""
 
@@ -945,7 +1182,7 @@ msgstr ""
 #: admin/settings/options/template.php:8 admin/settings/options/template.php:17
 #: admin/settings/options/template.php:28
 #: admin/settings/options/template.php:49
-#: admin/settings/options/template.php:54 classes/Admin/ListTable.php:96
+#: admin/settings/options/template.php:54 classes/Admin/ListTable.php:94
 msgid "Title"
 msgstr ""
 
@@ -972,35 +1209,35 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: admin/settings/pro-plugin.php:21
-msgid "PRO FEATURES"
+#: admin/settings/pro-plugin.php:17
+msgid "PRO VERSION"
 msgstr ""
 
 #: admin/settings/sidebar.php:23
 msgid "Publish"
 msgstr ""
 
-#: admin/settings/sidebar.php:27 classes/Admin/ListTable.php:102
+#: admin/settings/sidebar.php:27 classes/Admin/ListTable.php:100
 msgid "Status"
 msgstr ""
 
-#: admin/settings/sidebar.php:30 classes/Admin/ListTable.php:265
+#: admin/settings/sidebar.php:30 classes/Admin/ListTable.php:274
 msgid "Deactivate"
 msgstr ""
 
-#: admin/settings/sidebar.php:35 classes/Admin/ListTable.php:99
+#: admin/settings/sidebar.php:35 classes/Admin/ListTable.php:97
 msgid "Test mode"
 msgstr ""
 
-#: admin/settings/sidebar.php:38 classes/Admin/ListTable.php:264
+#: admin/settings/sidebar.php:38 classes/Admin/ListTable.php:273
 msgid "Activate"
 msgstr ""
 
-#: admin/settings/sidebar.php:83 classes/Admin/ListTable.php:58
+#: admin/settings/sidebar.php:83 classes/Admin/ListTable.php:59
 msgid "Delete"
 msgstr ""
 
-#: admin/settings/sidebar.php:91 classes/Admin/ListTable.php:56
+#: admin/settings/sidebar.php:91 classes/Admin/ListTable.php:58
 msgid "Duplicate"
 msgstr ""
 
@@ -1020,11 +1257,11 @@ msgid ""
 "target=\"_blank\">rate us</a>"
 msgstr ""
 
-#: classes/Admin/Dashboard.php:132
+#: classes/Admin/Dashboard.php:133
 msgid "Add New"
 msgstr ""
 
-#: classes/Admin/Dashboard.php:166
+#: classes/Admin/Dashboard.php:167
 msgid "Update"
 msgstr ""
 
@@ -1040,19 +1277,24 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: classes/Admin/ImporterExporter.php:71
-msgid "Please upload a valid .json file"
+#: classes/Admin/ImporterExporter.php:70 classes/Admin/ImporterExporter.php:83
+msgid "Please select a file to import"
 msgstr ""
 
-#: classes/Admin/ImporterExporter.php:72
+#: classes/Admin/ImporterExporter.php:71 classes/Admin/ImporterExporter.php:78
+#: classes/Admin/ImporterExporter.php:84
 msgid "Error"
 msgstr ""
 
-#: classes/Admin/ListTable.php:50
-msgid "Untitled"
+#: classes/Admin/ImporterExporter.php:77
+msgid "Please upload a valid .json file"
 msgstr ""
 
-#: classes/Admin/ListTable.php:54
+#: classes/Admin/ListTable.php:53 classes/Admin/ListTable.php:136
+msgid "Side Menu"
+msgstr ""
+
+#: classes/Admin/ListTable.php:57
 msgid "Edit"
 msgstr ""
 
@@ -1060,72 +1302,60 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: classes/Admin/ListTable.php:64
+#: classes/Admin/ListTable.php:63
 msgid "View"
 msgstr ""
 
-#: classes/Admin/ListTable.php:98
+#: classes/Admin/ListTable.php:96
 msgid "Tag"
 msgstr ""
 
-#: classes/Admin/ListTable.php:100
+#: classes/Admin/ListTable.php:98 classes/Admin/ListTable.php:101
 msgid "The item will only be displayed for administrators."
 msgstr ""
 
-#: classes/Admin/ListTable.php:103
-msgid "Display item on the Frontend."
+#: classes/Admin/ListTable.php:137
+msgid "Click to deactivate."
 msgstr ""
 
 #: classes/Admin/ListTable.php:138
-msgid "UnTitle"
+msgid "Click to activate."
 msgstr ""
 
-#: classes/Admin/ListTable.php:139
-msgid "Click for Deactivate."
+#: classes/Admin/ListTable.php:143
+msgid "Click to disable."
 msgstr ""
 
-#: classes/Admin/ListTable.php:140
-msgid "Click for Activate."
+#: classes/Admin/ListTable.php:144
+msgid "Click to enable."
 msgstr ""
 
-#: classes/Admin/ListTable.php:141 classes/Admin/ListTable.php:150
-msgid "OFF"
-msgstr ""
-
-#: classes/Admin/ListTable.php:143 classes/Admin/ListTable.php:152
-msgid "ON"
-msgstr ""
-
-#: classes/Admin/ListTable.php:147
-msgid "Click for OFF."
-msgstr ""
-
-#: classes/Admin/ListTable.php:148
-msgid "Click for ON."
-msgstr ""
-
-#: classes/Admin/ListTable.php:263
+#: classes/Admin/ListTable.php:272
 msgid "Delate"
 msgstr ""
 
-#: classes/Admin/ListTable.php:266
+#: classes/Admin/ListTable.php:275
 msgid "Test mode ON"
 msgstr ""
 
-#: classes/Admin/ListTable.php:267
+#: classes/Admin/ListTable.php:276
 msgid "Test mode OFF"
 msgstr ""
 
-#: classes/Admin/ListTable.php:318
+#: classes/Admin/ListTable.php:325
 msgid "Filter by tag"
 msgstr ""
 
-#: classes/Admin/ListTable.php:321
+#: classes/Admin/ListTable.php:328
 msgid "All"
 msgstr ""
 
-#: classes/Admin/ListTable.php:334
+#: classes/Admin/ListTable.php:341
 msgid "Filter"
+msgstr ""
+
+#: classes/Admin/ManageCapabilities.php:34
+msgid "Save Change"
 msgstr ""
 
 #: classes/Admin/SupportForm.php:24
@@ -1148,27 +1378,27 @@ msgstr ""
 msgid "Message type"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:62
+#: classes/Admin/SupportForm.php:61
 msgid "Issue"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:63
+#: classes/Admin/SupportForm.php:62
 msgid "Idea"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:71
+#: classes/Admin/SupportForm.php:70
 msgid "Plugin"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:80
+#: classes/Admin/SupportForm.php:79
 msgid "License Key"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:91
+#: classes/Admin/SupportForm.php:90
 msgid "Enter Your Message"
 msgstr ""
 
-#: classes/Admin/SupportForm.php:102
+#: classes/Admin/SupportForm.php:101
 msgid "Send to Support"
 msgstr ""
 
@@ -1192,7 +1422,7 @@ msgstr ""
 msgid "Wow Plugins"
 msgstr ""
 
-#: side-menu-lite.php:142 side-menu-lite.php:153
+#: side-menu-lite.php:146 side-menu-lite.php:157
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 

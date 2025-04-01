@@ -1,234 +1,274 @@
-=== Side Menu Lite - add sticky fixed buttons ===
+=== Side Menu Lite - Sticky Floating Side Menu ===
 Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/side-menu-pro/
-Tags: sidebar menu, floating menu, sticky menu, float button, side menu
+Tags: sidebar menu, floating menu, sticky menu, floating button, side menu
 Requires at least: 4.3
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 5.4
+Stable tag: 5.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create a fixed, sticky vertical side menu to grab users' attention and enhance your website's navigation.
+Create a sticky vertical sidebar menu that enhances navigation and highlights important links on your website.
 
 == Description ==
-Side Menu Lite is a free plugin designed to create a convenient sidebar for easy navigation on your website. It allows you to add fixed slide-out buttons to the left or right side of the page. Insert any links to create a unique and functional navigation menu.
+
+**Side Menu Lite** is a free and lightweight WordPress plugin that lets you add customizable sticky side menus to the left or right edge of your site. These floating buttons serve as shortcuts, improving site navigation and user engagement.
+
+**Perfect for:**
+- Quick access menus
+- Feedback or contact links
+- Promotion of offers or calculators
+- Integration with popups, modals, and more
+
+✅ **Increase engagement with intuitive and accessible navigation.**
+
+== 🌟 Features ==
+
+- Create **unlimited side menus**
+- **Left or right** side placement
+- Insert **custom links**
+- Open links in a **new tab**
+- Customize **icon size** and **font size**
+- Add **animated icons**
+- Display menus on **specific devices**
+- Use custom **IDs and classes**
+- Includes **2000+ Font Awesome 6 icons**
+
+== 🔥 Benefits ==
+
+- Highlight essential actions, links, or pages
+- Combine with popups or calculators for more conversions
+- Boost user experience and retention
+- Great for both desktop and mobile
 
 
-= Main features =
-Enhance your site's usability with the compact sidebar provided by Side Menu Lite, offering the following options:
+== 🚀 Upgrade to Pro ==
 
-- Unlimited number of menus
-- Positioning on the left or right side
-- Insert any links
-- Open links in a new window
-- Control over menu item size
-- Control over icon and font size
-- Animated icons
-- Device-specific display control
-- Add custom IDs and classes to menu items
-- Access to 2000+ Font Awesome 6 icons
+Unlock powerful features with [Side Menu Pro](https://wow-estore.com/item/side-menu-pro/):
 
+- Submenus for better organization
+- Extended Labels & Hold Label Open
+- Translate link
+- Share link (30+ social platforms)
+- Next/Previous post navigation
+- Smooth scroll / Scroll to top or bottom
+- ScrollSpy
+- Print page
+- Built-in search
+- One-click call / Email / Bookmark
+- Login / Register / Logout / Recover password
+- Visibility by scroll position
+- Visibility by timer delay
+- Activate by URL
+- Activate by Referrer URL
+- Multilingual Support
+- Add emoji or letter icons
+- Upload **custom icons**
+- Full **visibility control** (page types, categories, shortcodes)
+- Show menu by **device, language, user role**
+- Schedule menu appearance (by date, time, day)
+- Browser compatibility rules
 
-**Benefits of Using Side Menu Lite**
-
-- Capture users' attention and guide them to desired sections or functionalities
-- Insert links to direct users to specific parts of your website or external destinations
-- Engage and delight users with additional functions, widgets, and content
-- Combine with Popup plugin:
-  - Set up email opt-ins and lead magnets
-  - Create phone call request widgets
-  - Set up online order forms, price calculators, and other interactive widgets
-
-Side Menu Lite provides a compact sidebar menu that helps focus users' attention on essential information. It can be used for site navigation or to enhance functionality by integrating modal windows. Utilize it to add feedback forms, subscription options, online calculators, and other interactive widgets to your site.
-
-
-**Boost your website's engagement and conversions with Side Menu! Get started today!**
-
-== PRO Version ==
-[Check the PRO version](https://wow-estore.com/item/side-menu-pro/)
-
-*   **Translate** Empower your visitors to translate your website content in real-time. Integrate this link type to break down language barriers and cater to a global audience.
-*   **Social Sharing** Boost your website's reach by incorporating a "Share" link. Choose from a staggering 29 different social media services, allowing users to effortlessly share your content across their preferred platforms.
-*   **Next/Previous Post** Simplify post navigation for readers. These link types automatically direct users to the next or previous post within the current category, keeping them engaged and exploring related content.
-*   **Scroll To Top/Bottom** Provide users with convenient links to instantly scroll to the top or bottom of your webpage. This is particularly helpful for long pages or content-heavy sections.
-*   **Smooth Scroll** Enhance user experience with smooth scrolling animations. This link type ensures a visually pleasing and seamless transition when users navigate to different sections of your webpage.
-*   **Print** With a single click on the Print link, users can initiate the built-in printing function of their web browser. No more cumbersome text selection or manual copying.
-*   **Search** Integrate a search function directly into your side menu. This empowers users to quickly find specific information on your website, improving overall user experience.
-*   **Email** Integrate an Email link into your side menu, allowing users to effortlessly initiate email communication. This streamlines the process for users who may have questions, require additional information, or want to express feedback.
-*   **One-Click Calling**Provide a Telephone link within your side menu, enabling users to directly initiate a phone call to your business with a single click. This is particularly valuable for websites with a strong focus on customer service or those offering phone consultations.
-*   **User Links** This includes Login links for effortless account access, Logout links for secure sign-outs, Registration links for simplified account creation, and Password Recovery links for stress-free password retrieval, all readily available within the menu, empowering users to manage their accounts and interact with your website seamlessly.
-*   **2000+ Icons** Leverage a vast library of professional and versatile Font Awesome icons. This extensive collection encompasses a wide range of styles and categories, allowing you to find the perfect icon to visually represent your menu items
-*   **Custom Icons** Break free from the limitations of pre-defined icon libraries. Custom icons allow you to utilize any image or icon that complements your website's design.
-*   **Emoji and Letter**Sometimes, a simple emoji or letter can be the most effective way to represent a menu item. Side Menu Pro allows you to utilize emojis or individual letters as icons, offering a playful and informal touch to your menus.
-*   **Hiding/Showing**Allows you to control the visibility of your side menus based on the user's scroll position on the webpage.
-*   **Submenus** By grouping related items under submenu, you can improve user experience by making navigation more intuitive and organized. Users can easily find the specific information they need without feeling overwhelmed by a long list of top-level menu items.
-*   **Custom Attributes** Add specific attributes like CLASS and ID to each menu item for advanced control.
-*   **Display Rules** Control exactly where your menus appear using shortcodes, page types, post categories/tags, author pages, and date archives.
-*   **Devices Rules** Ensure optimal menu visibility across all devices with options to hide/remove on specific screen sizes.
-*   **Multilingual Support** For websites catering to a global audience, Side Menu Pro allows you to restrict menu visibility to specific languages. This ensures users only see menus relevant to their chosen language setting.
-*   **User Role Permissions** Define which user roles (e.g., Administrator, Editor, Author) have the ability to see the menu items. This can be helpful for displaying internal menus relevant only to website administrators or managing menus for specific user groups.
-*   **Scheduling** Schedule menu appearances based on specific days, times, and dates. This allows you to promote temporary events or campaigns without cluttering your website permanently.
-*   **Browser Compatibility** Ensure your menus display correctly across a wide range of browsers. If necessary, you can choose to hide menus for specific browsers to address compatibility issues with outdated software versions.
+🎥 [Demo Pro](https://demo.wow-estore.com/side-menu-pro/)
 
 
-[Demo the PRO version](https://demo.wow-estore.com/side-menu-pro/)
+== 🔗 Complementary Plugins ==
 
+Maximize functionality by combining with these free tools:
 
-**Unlock even more functionality by using Side Menu with these free plugins:**
+- [Popup Box](https://wordpress.org/plugins/popup-box/)
+- [Counter Box](https://wordpress.org/plugins/counter-box/)
+- [Calculator Builder](https://wordpress.org/plugins/calculator-builder/)
+- [Herd Effects](https://wordpress.org/plugins/mwp-herd-effect/)
+- [Buttons](https://wordpress.org/plugins/buttons/)
 
-* Buttons: Create call-to-action buttons and more within your popups. (Buttons Plugin Link: [https://wordpress.org/plugins/buttons/](https://wordpress.org/plugins/buttons/))
-* Counter Box: Design engaging countdown timers and information banners. (Counter Box Plugin Link: [https://wordpress.org/plugins/counter-box/](https://wordpress.org/plugins/counter-box/))
-* Calculator Builder: A simple way to create an online calculator. (Calculator Builder Plugin Link: [https://wordpress.org/plugins/calculator-builder/](https://wordpress.org/plugins/calculator-builder/))
-* Herd Effects: Social Proof and Notification Plugin (Herd Effects Plugin Link: [https://wordpress.org/plugins/mwp-herd-effect/](https://wordpress.org/plugins/mwp-herd-effect/))
-* Popup Box: new WordPress popup plugin (Popup Box Plugin Link: [https://wordpress.org/plugins/mwp-herd-effect/](https://wordpress.org/plugins/popup-box/))
+== 🧭 Related Menu Plugins ==
 
-**Try other our plugin for create menu:**
+- [Floating Button](https://wordpress.org/plugins/floating-button/) – Floating call-to-action buttons
+- [Sticky Buttons](https://wordpress.org/plugins/sticky-buttons/) – Floating multi-action sticky buttons
+- [Bubble Menu](https://wordpress.org/plugins/bubble-menu/) – Circular floating menu with icons
+- [Float Menu](https://wordpress.org/plugins/float-menu/) – Customizable vertical float menu
 
-*   [Floating Button](https://wordpress.org/plugins/floating-button/) - Easily generate and manage sticky floating buttons.
-*   [Sticky Buttons](https://wordpress.org/plugins/sticky-buttons/) - Easily create sticky buttons with varying complexity.
-*   [Bubble Menu](https://wordpress.org/plugins/bubble-menu/) - Create an awesome circle menu with icons.
-*   [Float menu](https://wordpress.org/plugins/float-menu/) - Easily create floating menus with varying complexity.
+== 📩 Support ==
 
-***We hope you enjoy using these plugins for your menu creation needs!***
+Need help? Visit our [Support Forum](https://wordpress.org/support/plugin/side-menu-lite) for quick answers and assistance.
 
-= Support =
-Search for answers and ask your questions at [support center](https://wordpress.org/support/plugin/side-menu-lite)
+== Frequently Asked Questions ==
+
+= The menu doesn’t appear on my website. What should I do? =
+This is usually caused by caching. Try the following steps:
+
+1. **Clear your browser cache** – Press `Ctrl + Shift + R` (Windows) or `Cmd + Shift + R` (Mac).
+2. **Purge your WordPress cache** – Use your caching plugin (e.g., WP Rocket, W3 Total Cache, LiteSpeed Cache) to clear the cache.
+3. **Clear server/hosting cache** – Clear cache from your hosting panel (Cloudflare, SiteGround, etc.).
+4. **Temporarily disable caching plugins** – If the menu still doesn't show, disable caching plugins to confirm the issue.
+
+= The menu is visible only to admins. How can I make it visible to everyone? =
+Check if **Test Mode** is enabled. When active, the menu is only visible to administrators. Disable Test Mode to show it to all visitors.
+
+= Can I control where the menu appears? =
+Yes! In the **Lite version**, you can:
+- Display the menu **sitewide** on all pages.
+- Use the shortcode `[Side-Menu id="1"]` to manually insert the menu on specific pages or posts.
+
+The **Pro version** allows you to display menus by post types, taxonomies, user roles, languages, and more.
+
+= Can I change the side where the menu appears? =
+Yes. You can position the menu on the **left** or **right** side of the screen from the settings panel.
+
+= Can I create multiple menus? =
+Absolutely. You can create multiple side menus and display them independently using shortcodes or display rules.
+
+= Can I use Side Menu Lite on WordPress Multisite? =
+Yes, but don't network-activate the plugin. Instead, activate **Side Menu Lite** on each site where you want to use it.
+
+= Does Side Menu Lite slow down my site? =
+No. The plugin is lightweight and optimized for speed, ensuring it won’t affect your site's performance.
 
 
 == Installation ==
-* Installation option 1: Find and install this plugin in the `Plugins` -> `Add new` section of your `wp-admin`
-* Installation option 2: Download the zip file, then upload the plugin via the wp-admin in the `Plugins` -> `Add new` section. Or unzip the archive and upload the folder to the plugins directory `/wp-content/plugins/` via ftp
-* Press `Activate` when you have installed the plugin via dashboard or press `Activate` in the in the `Plugins` list
-* Go to `Side Menu Lite` section that will appear in your main menu on the left
-* Click `Add new` to create your first item
-* Setup your item
-* Click Save
 
+📌 **Option 1: Install via WordPress Admin**
+
+1. Go to your WordPress dashboard → `Plugins` → `Add New`.
+2. Search for **Side Menu Lite**.
+3. Click **Install Now**, then click **Activate**.
+4. Navigate to the new `Side Menu Lite` section in your dashboard menu.
+5. Click **Add New** to create your first menu.
+6. Customize your menu settings and click **Save**.
+
+📌 **Option 2: Manual Upload**
+
+1. Download the plugin ZIP file from [wordpress.org](https://wordpress.org/plugins/side-menu-lite/).
+2. Go to `Plugins` → `Add New` → `Upload Plugin`.
+3. Upload the ZIP file and click **Install Now**.
+4. Click **Activate** once the installation is complete.
+5. Create and manage side menus from the `Side Menu Lite` section in the dashboard.
+
+📌 **Option 3: Install via FTP**
+
+1. Download and unzip the plugin ZIP file.
+2. Upload the extracted `side-menu-lite` folder to `/wp-content/plugins/` via FTP.
+3. Go to `Plugins` in your dashboard and click **Activate** next to **Side Menu Lite**.
 
 == Screenshots ==
-1. Side Menu on Site
-2. Create Side Menu items
-3. Set Side Menu general style
-4. Display rules for Side Menu
-5. Interactive preview of the Side Menu
+
+1. Side Menu buttons displayed on the frontend
+2. Create and customize menu items
+3. Adjust global settings for the menu
+4. Set display rules to control visibility
+5. Live preview of the Side Menu in the editor
 
 == Changelog ==
+
+= 5.4.1 =
+* Updated: Helpful links added to the settings page.
+* Updated: `wp-color-picker-alpha` upgraded to version 3.0.4.
+
 = 5.4 =
-* Added: option for Disable class 'notranslate';
+* Added: Option to disable the `notranslate` class.
 
 = 5.3.2 =
-* Fixed: function for verification
+* Fixed: Function verification improvements.
 
 = 5.3.1 =
-* Updated: FontAwesome Icon 6.7.1
-* Fixed: minor bug with plugin activate
+* Updated: Font Awesome icons to version 6.7.1.
+* Fixed: Minor activation bug.
 
 = 5.3 =
-* Added: Aria Label attribute for menu item.
-* Updated: the main plugin icon.
-* Updated: small interface elements.
-* Fixed: minor bugs.
+* Added: `aria-label` attribute for better accessibility.
+* Updated: Plugin icon.
+* Updated: Small UI improvements.
+* Fixed: Various minor bugs.
 
 = 5.2.2 =
-* Changed: Function ‘touch rule’.
-* Fixed: Accessibility for keyboard navigation.
-* Fixed: Minor bugs related to escaping.
+* Changed: Touch rule logic.
+* Fixed: Improved keyboard accessibility.
+* Fixed: Minor escaping issues.
 
 = 5.2.1 =
-- Fixed: Includes the icon font in the page with the shortcode.
+* Fixed: Icon font inclusion on pages using shortcode.
 
 = 5.2 =
-- Added: categories for selecting icons.
-- Improved: Functionality of the FontIconPicker.
-- Fixed: Conflicts with the FontIconPicker module.
-- Fixed: Saving the status of a menu item in the admin panel.
-- Fixed: Initialization process of CodeMirror.
+* Added: Icon category support.
+* Improved: FontIconPicker functionality.
+* Fixed: Conflicts with FontIconPicker module.
+* Fixed: Menu item status saving.
+* Fixed: CodeMirror initialization.
 
 = 5.1.1 =
-* Fixed: FontPicker icon style
+* Fixed: FontPicker icon style issue.
 
 = 5.1 =
-* Added: Control the display of the plugin in the dashboard based on users' roles
-* Updated: FontAwesome Icon to version 6.6
-* Fixed: Font issue with fonticon picker search
+* Added: Dashboard visibility control by user roles.
+* Updated: Font Awesome to version 6.6.
+* Fixed: Icon picker search issues.
 
 = 5.0 =
-* Added: Animation for icon
-* Added: Vertical alignment and Offset for menu Location
-* Added: More options for menu style
-* Added: Tag and link options
-* Improvement: Refreshed Interface - revamped the plugin's dashboard page style for a more intuitive and user-friendly experience.
+🚀 **Major Update**
+* Added: Icon animation support.
+* Added: Vertical alignment and offset options for menu positioning.
+* Added: More menu styling options.
+* Added: Tags and link tracking options.
+* Improved: Refreshed admin interface for better usability.
 
 = 4.2.1 =
-* Fixed: minor bug with nonce
+* Fixed: Nonce verification bug.
 
 = 4.2 =
-* Added: touch function for mobile devices.
-* Changed: admin style.
+* Added: Touch function support for mobile.
+* Changed: Admin styling improvements.
 
 = 4.1.2 =
-* Fixed: Ability to add special link to item.
+* Fixed: Ability to add special link types.
 
 = 4.1.1 =
-* Fixed: dynamic property for PHP 8.2
+* Fixed: Compatibility with PHP 8.2 dynamic properties.
 
 = 4.1 =
-* Updated: FontAwesome to version 6.4.2
+* Updated: Font Awesome icons to version 6.4.2.
 
 = 4.0.2 =
-* Fixed: minor bugs in page-list
+* Fixed: Minor bug with page list handling.
 
 = 4.0.1 =
-* Fixed: minor bugs
+* Fixed: Various minor issues.
 
 = 4.0 =
-* Added: options for color and background for menu items
-* Added: Export/Import menus
-* Improved: style for plugin
-* Upgrade: Font Awesome to version 6.1.2
-
+🚀 **Major Update**
+* Added: Custom color and background options for items.
+* Added: Export/Import functionality for menus.
+* Improved: General plugin styling.
+* Updated: Font Awesome to version 6.1.2.
 
 = 3.1 =
-* Added: option for adding attribute 'rel' to link
+* Added: `rel` attribute support for menu links.
 
 = 3.0.1 =
-* Fixed: overlapping elements
+* Fixed: Issue with overlapping menu elements.
 
 = 3.0 =
-* Changed: Admin style
-* Added: option deactivate menu
-* Added: option 'Test mode'
+* Updated: Admin interface style.
+* Added: Menu deactivation option.
+* Added: "Test mode" feature (admin-only visibility).
 
-
-= 2.2.6 =
-* Fixed: minor bugs
-
-= 2.2.4 =
-* Fixed: minor bugs
-
-= 2.2.3 =
-* Fixed: remove the php classes for db and javascript
-
-= 2.2.2 =
-* Fixed: security bugs
-
-= 2.2.1 =
-* Fixed: minor bugs
+= 2.2.6 - 2.2.1 =
+* Fixed: Various minor bugs and code cleanups.
 
 = 2.2 =
-* Changed: Font Awesome Icon 5.15.3
+* Updated: Font Awesome to version 5.15.3.
 
 = 2.1.1 =
-* Fixed: minor bug with remove item
+* Fixed: Bug when removing menu items.
 
 = 2.1 =
-* Updated: Font Awesome Icons to version 5.14
-* Fixed: minor bugs.
+* Updated: Font Awesome to version 5.14.
+* Fixed: Various bugs.
 
 = 2.0 =
-* Updated: Font Awesome Icons
-* Optimized code
+* Updated: Font Awesome icons.
+* Optimized plugin code.
 
 = 1.0 =
-* Initial release
+🎉 Initial release.

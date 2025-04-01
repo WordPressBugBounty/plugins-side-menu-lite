@@ -13,6 +13,7 @@ $options = Settings::get_options();
 
 $title = $options['title'] ?? '';
 $id    = $options['id'] ?? '';
+$title_placeholder = ( empty( $title ) && ! empty( $id ) ) ? 'Side Menu #' . $id : __( 'Add title', 'side-menu-lite' );
 
 if ( ! isset( $options['live_preview'] ) ) {
 	$builder_open = ' open';
@@ -32,7 +33,7 @@ if ( ! isset( $options['live_preview'] ) ) {
                 <span class="screen-reader-text">
                     <?php esc_html_e( 'Enter title here', 'side-menu-lite' ); ?></span>
                     <input type="text" name="title" size="30" value="<?php echo esc_attr( $title ); ?>" id="title"
-                           placeholder="<?php esc_attr_e( 'Add title', 'side-menu-lite' ); ?>">
+                           placeholder="<?php echo esc_attr( $title_placeholder ); ?>">
                 </label>
             </div>
 
