@@ -2,6 +2,8 @@
 
 namespace SideMenuLite\Maker;
 
+use SideMenuLite\Admin\DBManager;
+
 defined( 'ABSPATH' ) || exit;
 
 class Content {
@@ -62,7 +64,17 @@ class Content {
 			$menu_add_classes .= ' notranslate';
 		}
 
-		return '<div class="' . esc_attr( $menu_add_classes ) . '" id="side-menu-' . absint( $id ) . '">';
+		$title = 'Side Menu';
+		$data  = DBManager::get_data_by_id( $id );
+		if ( $data !== false ) {
+			$data_title = $data->title;
+			if ( ! empty( $data_title ) ) {
+				$title = $data_title;
+			}
+		}
+
+
+		return '<div class="' . esc_attr( $menu_add_classes ) . '" id="side-menu-' . absint( $id ) . '" role="navigation" aria-label="' . esc_attr( $title ) . '">';
 	}
 
 	private function elements( $count, $param ): string {
