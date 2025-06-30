@@ -101,7 +101,7 @@ class Script {
 	public function add_item( $param ) {
 		$item = [];
 
-		if ( is_array( $param['menu_1']['item_type'] ) ) {
+		if ( !empty($param['menu_1']['item_type']) && is_array( $param['menu_1']['item_type'] ) ) {
 			$itemTypeCount = count( $param['menu_1']['item_type'] );
 
 			for ( $i = 0; $i < $itemTypeCount; $i ++ ) {

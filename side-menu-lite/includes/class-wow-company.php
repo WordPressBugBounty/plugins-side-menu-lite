@@ -12,6 +12,8 @@
  */
 
 
+use SideMenuLite\Admin\ManageCapabilities;
+
 defined( 'ABSPATH' ) || exit;
 
 final class Wow_Company {
@@ -26,7 +28,7 @@ final class Wow_Company {
 		$icon       = self::icon();
 		$page_title = __( 'WordPress plugins from Wow-Company', 'side-menu-lite' );
 		$menu_title = __( 'Wow Plugins', 'side-menu-lite' );
-		$capability = 'manage_options';
+		$capability  = ManageCapabilities::get_capability();
 		$slug       = 'wow-company';
 
 		add_menu_page( $page_title, $menu_title, $capability, $slug, [ $this, 'welcome_page' ], $icon );

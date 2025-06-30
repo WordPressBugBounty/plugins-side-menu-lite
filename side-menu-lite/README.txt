@@ -3,9 +3,9 @@ Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/side-menu-pro/
 Tags: sidebar menu, floating menu, sticky menu, floating button, side menu
 Requires at least: 4.3
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 5.4.2
+Stable tag: 5.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,6 +161,10 @@ No. The plugin is lightweight and optimized for speed, ensuring it won’t affec
 5. Live preview of the Side Menu in the editor
 
 == Changelog ==
+= 5.4.3 =
+* Fixed: incorrect user capabilities handling
+* Fixed: menu detection issue in Script Maker
+
 = 5.4.2 =
 * Improved: Screen reader support for the side menu by adding role="navigation" and aria-label attributes.
 

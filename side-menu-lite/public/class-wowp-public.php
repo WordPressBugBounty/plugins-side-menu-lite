@@ -122,6 +122,7 @@ class WOWP_Public {
 
 		foreach ( $args as $id => $param ) {
 			$content = new Content($id, $param);
+			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Safe output, handled inside Content::init()
 			echo $content->init();
 
 			if ( ! empty( $param['style'] ) ) {
