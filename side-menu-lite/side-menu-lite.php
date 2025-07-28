@@ -3,7 +3,7 @@
  *  Plugin Name:       Side Menu Lite
  *  Plugin URI:        https://wordpress.org/plugins/side-menu-lite/
  *  Description:       Provide any extra content and functionality with the attention-grabbing side menu!
- *  Version:           5.4.3
+ *  Version:           5.4.4
  *  Author:            Wow-Company
  *  Author URI:        https://wow-estore.com/
  *  License:           GPL-2.0+
@@ -45,7 +45,7 @@ if ( ! class_exists( 'WOWP_Plugin' ) ) :
 		public const SLUG = 'side-menu-lite';
 
 		// Plugin prefix
-		public const PREFIX = 'wow_side_menu_pro';
+			public const PREFIX = 'wow_side_menu_pro';
 
 		// Plugin Shortcode
 		public const SHORTCODE = 'Side-Menu';
