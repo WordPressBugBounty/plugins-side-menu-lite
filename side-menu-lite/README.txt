@@ -1,11 +1,11 @@
 === Side Menu Lite - Sticky Floating Side Menu ===
 Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/item/side-menu-pro/
-Tags: sidebar menu, floating menu, sticky menu, floating button, side menu
+Tags: sidebar menu, floating menu, floating button, nav menu, fixed menu
 Requires at least: 4.3
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 5.4.4
+Stable tag: 5.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,6 +161,9 @@ No. The plugin is lightweight and optimized for speed, ensuring it won’t affec
 5. Live preview of the Side Menu in the editor
 
 == Changelog ==
+= 5.5 =
+* Updated: Font Awesome library upgraded to version **7.0.0**.
+
 = 5.4.4 =
 * Improved: Reorganized method order in the DBManager class for better readability and maintenance
 
