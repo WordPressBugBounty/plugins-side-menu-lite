@@ -92,7 +92,7 @@ class WOWP_Public {
 		}
 		foreach ( $args as $id => $param ) {
 			if ( empty( $param['fontawesome'] ) ) {
-				wp_enqueue_style( $handle . '-fontawesome', $url_fontawesome, null, '7.0' );
+				wp_enqueue_style( $handle . '-fontawesome', $url_fontawesome, null, '7.1' );
 			}
 			if ( ! empty( $param['style'] ) ) {
 				$data = trim( preg_replace( '~\s+~s', ' ', $param['style'] ) );
@@ -131,7 +131,7 @@ class WOWP_Public {
 			}
 
 			if ( empty( $param['fontawesome'] ) ) {
-				wp_enqueue_style( $handle . '-fontawesome', $url_fontawesome, null, '7.0' );
+				wp_enqueue_style( $handle . '-fontawesome', $url_fontawesome, null, '7.1' );
 			}
 
 			$inline_script = $this->script( $param, $id );
