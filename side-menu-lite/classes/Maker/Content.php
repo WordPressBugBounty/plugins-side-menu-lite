@@ -36,7 +36,7 @@ class Content {
 		$count = ! empty( $param['menu_1']['item_type'] ) ? count( $param['menu_1']['item_type'] ) : 0;
 
 		if ( $count === 0 ) {
-			return false;
+			return '';
 		}
 
 		$wrapper = $this->wrapper( $id, $param );
@@ -254,7 +254,7 @@ class Content {
 			case 'close':
 				$menu .= '<span class="sm-link" data-smmenu-target="close">';
 				$menu .= $icon . $tooltip;
-				$menu .= '</a>';
+				$menu .= '</span>';
 				break;
 		}
 

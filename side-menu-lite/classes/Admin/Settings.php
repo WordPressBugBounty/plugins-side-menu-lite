@@ -179,7 +179,7 @@ class Settings {
 		return $param;
 	}
 
-	public static function option( $name, $option ) {
+	public static function option( $name ) {
 		return $options[ $name ] ?? '';
 	}
 

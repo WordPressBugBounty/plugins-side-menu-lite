@@ -5,7 +5,7 @@ Tags: sidebar menu, floating menu, floating button, nav menu, fixed menu
 Requires at least: 4.3
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 5.5.1
+Stable tag: 5.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,6 +161,10 @@ No. The plugin is lightweight and optimized for speed, ensuring it won’t affec
 5. Live preview of the Side Menu in the editor
 
 == Changelog ==
+= 5.5.2 =
+* Fixed: minor bug with Content::create()
+* Fixed: minor bug with Settings::option()
+* Fixed: grammar error in ListTable
 
 = 5.5.1=
 * Updated: Font Awesome library upgraded to version **7.1**.

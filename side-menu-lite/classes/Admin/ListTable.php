@@ -269,7 +269,7 @@ class ListTable extends WP_List_Table {
 
 	public function get_bulk_actions(): array {
 		$actions = [
-			'delete'     => __( 'Delate', 'side-menu-lite' ),
+			'delete'     => __( 'Delete', 'side-menu-lite' ),
 			'activate'   => __( 'Activate', 'side-menu-lite' ),
 			'deactivate' => __( 'Deactivate', 'side-menu-lite' ),
 			'test_on'    => __( 'Test mode ON', 'side-menu-lite' ),
