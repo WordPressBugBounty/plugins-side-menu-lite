@@ -3,6 +3,8 @@
  * Page Name: PRO FEATURES 🚀
  */
 
+defined( 'ABSPATH' ) || exit;
+
 $features = [
 	[
 		'icon'  => 'fa-solid fa-layer-group',
